@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.4
+3 info using node@v0.10.12
+4 warn package.json scenarionodelistwidget@0.0.0 No description
+5 warn package.json scenarionodelistwidget@0.0.0 No repository field.
+6 warn package.json scenarionodelistwidget@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/daniel/git_repo/scenario-node-list-widget',
+8 verbose install   [ 'time-grunt',
+8 verbose install     'grunt-concurrent',
+8 verbose install     'grunt-contrib-copy',
+8 verbose install     'grunt-contrib-compass',
+8 verbose install     'grunt-autoprefixer',
+8 verbose install     'grunt-contrib-cssmin',
+8 verbose install     'grunt-contrib-coffee',
+8 verbose install     'load-grunt-tasks',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-connect',
+8 verbose install     'grunt-svgmin',
+8 verbose install     'requirejs',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'recursive-readdir',
+8 verbose install     'grunt',
+8 verbose install     'grunt-bower-install',
+8 verbose install     'grunt-contrib-clean',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-htmlmin',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-google-cdn',
+8 verbose install     'grunt-newer',
+8 verbose install     'grunt-ngmin',
+8 verbose install     'grunt-rev',
+8 verbose install     'grunt-usemin',
+8 verbose install     'jshint-stylish',
+8 verbose install     'karma-ng-scenario',
+8 verbose install     'grunt-karma',
+8 verbose install     'karma',
+8 verbose install     'karma-ng-html2js-preprocessor',
+8 verbose install     'karma-script-launcher',
+8 verbose install     'karma-chrome-launcher',
+8 verbose install     'karma-firefox-launcher',
+8 verbose install     'karma-html2js-preprocessor',
+8 verbose install     'karma-jasmine',
+8 verbose install     'karma-coffee-preprocessor',
+8 verbose install     'karma-requirejs',
+8 verbose install     'karma-phantomjs-launcher',
+8 verbose install     'grunt-angular-templates',
+8 verbose install     'grunt-text-replace',
+8 verbose install     'grunt-concat-css' ] ]
+9 info preinstall scenarionodelistwidget@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt-contrib-connect@~0.5.0 /home/daniel/git_repo/scenario-node-list-widget
+12 verbose already installed skipping grunt-svgmin@~0.2.0 /home/daniel/git_repo/scenario-node-list-widget
+13 verbose already installed skipping requirejs@~2.1.9 /home/daniel/git_repo/scenario-node-list-widget
+14 verbose already installed skipping grunt-contrib-imagemin@~0.3.0 /home/daniel/git_repo/scenario-node-list-widget
+15 verbose already installed skipping recursive-readdir@0.0.2 /home/daniel/git_repo/scenario-node-list-widget
+16 verbose already installed skipping grunt@^0.4.5 /home/daniel/git_repo/scenario-node-list-widget
+17 verbose already installed skipping grunt-bower-install@~1.0.0 /home/daniel/git_repo/scenario-node-list-widget
+18 verbose already installed skipping grunt-contrib-clean@~0.5.0 /home/daniel/git_repo/scenario-node-list-widget
+19 verbose already installed skipping grunt-contrib-uglify@~0.2.0 /home/daniel/git_repo/scenario-node-list-widget
+20 verbose already installed skipping grunt-contrib-concat@~0.3.0 /home/daniel/git_repo/scenario-node-list-widget
+21 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 /home/daniel/git_repo/scenario-node-list-widget
+22 verbose already installed skipping grunt-contrib-watch@~0.5.2 /home/daniel/git_repo/scenario-node-list-widget
+23 verbose already installed skipping grunt-google-cdn@~0.2.0 /home/daniel/git_repo/scenario-node-list-widget
+24 verbose already installed skipping grunt-newer@~0.6.1 /home/daniel/git_repo/scenario-node-list-widget
+25 verbose already installed skipping grunt-ngmin@~0.0.2 /home/daniel/git_repo/scenario-node-list-widget
+26 verbose already installed skipping grunt-rev@~0.1.0 /home/daniel/git_repo/scenario-node-list-widget
+27 verbose already installed skipping grunt-usemin@~2.0.0 /home/daniel/git_repo/scenario-node-list-widget
+28 verbose already installed skipping jshint-stylish@~0.1.3 /home/daniel/git_repo/scenario-node-list-widget
+29 verbose already installed skipping karma-ng-scenario@^0.1.0 /home/daniel/git_repo/scenario-node-list-widget
+30 verbose already installed skipping grunt-karma@^0.8.3 /home/daniel/git_repo/scenario-node-list-widget
+31 verbose already installed skipping karma@~0.10.9 /home/daniel/git_repo/scenario-node-list-widget
+32 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 /home/daniel/git_repo/scenario-node-list-widget
+33 verbose already installed skipping karma-script-launcher@~0.1.0 /home/daniel/git_repo/scenario-node-list-widget
+34 verbose already installed skipping karma-chrome-launcher@~0.1.4 /home/daniel/git_repo/scenario-node-list-widget
+35 verbose cache add [ 'karma-firefox-launcher@~0.2.0', null ]
+36 verbose cache add name=undefined spec="karma-firefox-launcher@~0.2.0" args=["karma-firefox-launcher@~0.2.0",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'karma-firefox-launcher@~0.2.0',
+37 verbose parsed url   path: 'karma-firefox-launcher@~0.2.0',
+37 verbose parsed url   href: 'karma-firefox-launcher@~0.2.0' }
+38 verbose cache add name="karma-firefox-launcher" spec="~0.2.0" args=["karma-firefox-launcher","~0.2.0"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '~0.2.0',
+39 verbose parsed url   path: '~0.2.0',
+39 verbose parsed url   href: '~0.2.0' }
+40 verbose addNamed [ 'karma-firefox-launcher', '~0.2.0' ]
+41 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+42 verbose already installed skipping karma-jasmine@~0.1.5 /home/daniel/git_repo/scenario-node-list-widget
+43 silly lockFile 265548fd-karma-firefox-launcher-0-2-0 karma-firefox-launcher@~0.2.0
+44 verbose lock karma-firefox-launcher@~0.2.0 /home/daniel/.npm/265548fd-karma-firefox-launcher-0-2-0.lock
+45 verbose already installed skipping karma-coffee-preprocessor@~0.1.2 /home/daniel/git_repo/scenario-node-list-widget
+46 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /home/daniel/git_repo/scenario-node-list-widget
+47 verbose already installed skipping karma-requirejs@~0.2.1 /home/daniel/git_repo/scenario-node-list-widget
+48 silly addNameRange { name: 'karma-firefox-launcher',
+48 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+48 silly addNameRange   hasData: false }
+49 verbose already installed skipping karma-phantomjs-launcher@~0.1.1 /home/daniel/git_repo/scenario-node-list-widget
+50 verbose already installed skipping grunt-angular-templates@~0.5.1 /home/daniel/git_repo/scenario-node-list-widget
+51 verbose already installed skipping grunt-text-replace@~0.3.10 /home/daniel/git_repo/scenario-node-list-widget
+52 verbose already installed skipping grunt-concat-css@~0.1.1 /home/daniel/git_repo/scenario-node-list-widget
+53 verbose already installed skipping grunt-contrib-compass@~0.5.0 /home/daniel/git_repo/scenario-node-list-widget
+54 verbose already installed skipping time-grunt@~0.2.1 /home/daniel/git_repo/scenario-node-list-widget
+55 verbose already installed skipping grunt-concurrent@~0.5.0 /home/daniel/git_repo/scenario-node-list-widget
+56 verbose already installed skipping grunt-autoprefixer@~0.4.0 /home/daniel/git_repo/scenario-node-list-widget
+57 verbose already installed skipping grunt-contrib-copy@~0.4.1 /home/daniel/git_repo/scenario-node-list-widget
+58 verbose already installed skipping grunt-contrib-cssmin@~0.7.0 /home/daniel/git_repo/scenario-node-list-widget
+59 verbose already installed skipping grunt-contrib-coffee@~0.7.0 /home/daniel/git_repo/scenario-node-list-widget
+60 verbose already installed skipping load-grunt-tasks@~0.4.0 /home/daniel/git_repo/scenario-node-list-widget
+61 verbose already installed skipping grunt-contrib-jshint@~0.7.1 /home/daniel/git_repo/scenario-node-list-widget
+62 silly addNameRange number 2 { name: 'karma-firefox-launcher',
+62 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+62 silly addNameRange   hasData: true }
+63 silly addNameRange versions [ 'karma-firefox-launcher',
+63 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+64 silly lockFile 265548fd-karma-firefox-launcher-0-2-0 karma-firefox-launcher@~0.2.0
+65 silly lockFile 265548fd-karma-firefox-launcher-0-2-0 karma-firefox-launcher@~0.2.0
+66 error notarget No compatible version found: karma-firefox-launcher@'>=0.2.0-0 <0.3.0-0'
+66 error notarget Valid install targets:
+66 error notarget ["0.0.1","0.0.2","0.0.3","0.1.0","0.1.1","0.1.2","0.1.3"]
+66 error notarget
+66 error notarget This is most likely not a problem with npm itself.
+66 error notarget In most cases you or one of your dependencies are requesting
+66 error notarget a package version that doesn't exist.
+67 error System Linux 3.2.0-63-generic
+68 error command "node" "/usr/local/bin/npm" "install"
+69 error cwd /home/daniel/git_repo/scenario-node-list-widget
+70 error node -v v0.10.12
+71 error npm -v 1.4.4
+72 error code ETARGET
+73 verbose exit [ 1, true ]

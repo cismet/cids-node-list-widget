@@ -1,0 +1,75 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 expandfull"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 expandfull"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 expandfull"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js expandfull"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>    
+        <!-- endbower -->
+
+        <!-- build:css(.tmp) styles/crisma-scenario-list-widget-angular.min.css -->
+        <link rel="stylesheet" href="styles/scenario-node-list-widget.css">
+        <!-- endbuild -->
+    </head>
+    <body ng-app="de.cismet.crisma.widgets.scenarioNodeListWidget" class="expandfull">
+        <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--[if lt IE 9]>
+          <script src="bower_components/es5-shim/es5-shim.js"></script>
+          <script src="bower_components/json3/lib/json3.min.js"></script>
+        <![endif]-->
+
+        <!-- demo only -->
+        <div class="row" ng-init="selectedWorldstate">
+            <div class="col-lg-3">
+                <div class="dropdown clearfix">
+                    <scenario-node-list-widget style="margin: 10px;" class="custom-list" selected-worldstate="selectedWorldstate"/>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <p>{{selectedWorldstate| json}}</p>
+            </div>
+        </div>
+
+        <!-- bower plugin does not yet work as expected -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/cids-custom-rest-js/dist/scripts/cids-custom-rest-js.js"></script>
+        <!-- endbower -->
+
+        <!-- ngtemplates adds generated templates -->
+        <!-- build:js({.tmp,app}) scripts/crisma-scenario-list-widget-angular.min.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/ScenarioNodeListDirectiveController.js"></script>
+        <script src="scripts/directives/ScenarioNodeListDirective.js"></script>
+        <!-- endbuild -->
+
+        <!-- demo only -->
+        <script>
+                    angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget').config(
+                        [
+                            '$provide',
+                            function ($provide) {
+                                'use strict';
+
+                                $provide.constant('DEBUG', 'true');
+                                $provide.constant('CRISMA_DOMAIN', 'CRISMA');
+                                $provide.constant('CRISMA_ICMM_API', 'http://localhost:8890');
+                            }
+                        ]
+                        );
+        </script>
+    </body>
+</html>
