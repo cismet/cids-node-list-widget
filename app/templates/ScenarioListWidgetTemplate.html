@@ -1,0 +1,8 @@
+<ul>
+    <li ng-repeat="node in scenarioNodes" ng-class="isActive($index)">
+        <a ng-click="activateItem($index)">
+            <i ng-if="node.icon" class="fa fa-lg fa-fw" ng-class="node.icon"></i>
+            <span>{{node.name}}</span>
+        </a>
+    </li>
+</ul>
