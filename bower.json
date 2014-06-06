@@ -9,7 +9,9 @@
     "test",
     "Gruntfile.js",
     "karma*",
-    "package.json"
+    "package.json",
+    "bower*",
+    "*.log"
   ],
   "dependencies": {
     "angular": "1.2.15",
