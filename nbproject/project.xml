@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.web.clientproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
-            <name>scenario-node-list-widget</name>
+            <name>cids-node-list-widget</name>
         </data>
     </configuration>
 </project>
