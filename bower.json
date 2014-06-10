@@ -1,6 +1,6 @@
 {
-  "name": "scenario-node-list-widget",
-  "version": "0.1.0",
+  "name": "cids-node-list-widget",
+  "version": "0.1.1",
     "ignore": [
     ".*",
     "app",
