@@ -10,10 +10,10 @@
 
 // this only combines all the modules in a single one 
 angular.module(
-    'de.cismet.crisma.widgets.scenarioNodeListWidget',
+    'de.cismet.cids.widgets.nodeListWidget',
     [
-        'de.cismet.crisma.widgets.scenarioNodeListWidget.directives',
-        'de.cismet.crisma.widgets.scenarioNodeListWidget.controllers',
+        'de.cismet.cids.widgets.nodeListWidget.directives',
+        'de.cismet.cids.widgets.nodeListWidget.controllers',
         'de.cismet.cids.rest.collidngNames.Nodes'
     ]
 );

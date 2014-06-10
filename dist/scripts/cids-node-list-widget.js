@@ -8,12 +8,12 @@
 //)    
 //}]);
 // this only combines all the modules in a single one 
-angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget', [
-  'de.cismet.crisma.widgets.scenarioNodeListWidget.directives',
-  'de.cismet.crisma.widgets.scenarioNodeListWidget.controllers',
+angular.module('de.cismet.cids.widgets.nodeListWidget', [
+  'de.cismet.cids.widgets.nodeListWidget.directives',
+  'de.cismet.cids.widgets.nodeListWidget.controllers',
   'de.cismet.cids.rest.collidngNames.Nodes'
 ]);
-angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget.controllers', []).controller('de.cismet.crisma.widgets.scenarioNodeListWidget.controllers.ScenarioNodeListDirectiveController', [
+angular.module('de.cismet.cids.widgets.nodeListWidget.controllers', []).controller('de.cismet.cids.widgets.nodeListWidget.controllers.NodeListDirectiveController', [
   '$scope',
   'de.cismet.collidingNameService.Nodes',
   function ($scope, Nodes) {
@@ -33,13 +33,13 @@ angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget.controllers', []
     };
   }
 ]);
-angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget.directives', []).directive('scenarioNodeListWidget', function () {
+angular.module('de.cismet.cids.widgets.nodeListWidget.directives', []).directive('cidsNodeListWidget', function () {
   'use strict';
   return {
     scope: { selectedWorldstate: '=?' },
     restrict: 'E',
     replace: true,
-    templateUrl: 'templates/ScenarioListWidgetTemplate.html',
-    controller: 'de.cismet.crisma.widgets.scenarioNodeListWidget.controllers.ScenarioNodeListDirectiveController'
+    templateUrl: 'templates/NodeListWidgetTemplate.html',
+    controller: 'de.cismet.cids.widgets.nodeListWidget.controllers.NodeListDirectiveController'
   };
 });

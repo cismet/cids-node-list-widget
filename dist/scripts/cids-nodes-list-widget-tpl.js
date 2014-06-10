@@ -1,7 +1,7 @@
-angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget.directives').run(['$templateCache', function($templateCache) {
+angular.module('de.cismet.cids.widgets.nodeListWidget.directives').run(['$templateCache', function($templateCache) {
   'use strict';
 
-  $templateCache.put('templates/ScenarioListWidgetTemplate.html',
+  $templateCache.put('templates/NodeListWidgetTemplate.html',
     "<ul>\n" +
     "    <li ng-repeat=\"node in scenarioNodes\" ng-class=\"isActive($index)\">\n" +
     "        <a ng-click=\"activateItem($index)\">\n" +
