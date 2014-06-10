@@ -149,7 +149,7 @@ module.exports = function (grunt) {
     concat: {
       dist: {
           src: '<%= yeoman.app %>/scripts/**/*.js',
-          dest: '<%= yeoman.dist %>/scripts/scenario-node-list-widget.js'
+          dest: '<%= yeoman.dist %>/scripts/cids-node-list-widget.js'
       }
     },
     rev: {
@@ -332,21 +332,21 @@ module.exports = function (grunt) {
     ngtemplates: {
         dist: {
             options: {
-                module: 'de.cismet.crisma.widgets.scenarioNodeListWidget.directives',
+                module: 'de.cismet.cids.widgets.nodeListWidget.directives',
                 htmlmin:  '<%= htmlmin.deploy %>',
-                usemin: 'scripts/scenario-node-list-widget.min.js'
+                usemin: 'scripts/cids-node-list-widget.min.js'
             },
             cwd: '<%= yeoman.app %>',
             src: 'templates/**.html',
-            dest: '<%= yeoman.dist %>/scripts/scenario-node-list-widget.min.js'
+            dest: '<%= yeoman.dist %>/scripts/cids-node-list-widget.min.js'
         },
         deploy: {
             options: {
-                module: 'de.cismet.crisma.widgets.scenarioNodeListWidget.directives'
+                module: 'de.cismet.cids.widgets.nodeListWidget.directives'
             },
             cwd: '<%= yeoman.app %>',
             src: 'templates/**.html',
-            dest: '<%= yeoman.dist %>/scripts/scenario-nodes-list-widget-tpl.js'
+            dest: '<%= yeoman.dist %>/scripts/cids-nodes-list-widget-tpl.js'
         }
     },
     // we do this since the grunt-google-cdn plugin is stale, quick and dirty
@@ -369,8 +369,8 @@ module.exports = function (grunt) {
         // global var but an injected one, maybe reconsider debug config in the future
         debugCode: {
             // this is the concatenated file
-            src: ['.tmp/concat/scripts/scenario-node-list-widget.min.js'],
-            dest: ['.tmp/concat/scripts/scenario-node-list-widget.min.js'],
+            src: ['.tmp/concat/scripts/cids-node-list-widget.min.js'],
+            dest: ['.tmp/concat/scripts/cids-node-list-widget.min.js'],
             replacements: [
                 // unfortunately we cannot simply match opening { and count other opening { and then match the last closing one
                 // if this is needed some time in the future, we have to match everything and process the text in a to-function
@@ -386,7 +386,7 @@ module.exports = function (grunt) {
     concat_css: {
         all: {
             src: ['<%= yeoman.app %>/styles/**/*.css'],
-            dest: '<%= yeoman.dist %>/styles/scenario-node-list-widget.css'
+            dest: '<%= yeoman.dist %>/styles/cids-node-list-widget.css'
         }
     }
   });
