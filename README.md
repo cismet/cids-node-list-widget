@@ -1,4 +1,4 @@
-scenario-node-list-widget
+cids-node-list-widget
 =========================
 
 A prototypical implementation that retrieves leaf nodes from the cids-rest-api. Needs to be adopted or extended with further development of the nodes API.
