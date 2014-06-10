@@ -15,11 +15,11 @@
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>    
         <!-- endbower -->
 
-        <!-- build:css(.tmp) styles/crisma-scenario-list-widget-angular.min.css -->
-        <link rel="stylesheet" href="styles/scenario-node-list-widget.css">
+        <!-- build:css(.tmp) styles/cids-node-list-widget.min.css -->
+        <link rel="stylesheet" href="styles/cids-node-list-widget.css">
         <!-- endbuild -->
     </head>
-    <body ng-app="de.cismet.crisma.widgets.scenarioNodeListWidget" class="expandfull">
+    <body ng-app="de.cismet.cids.widgets.nodeListWidget" class="expandfull">
         <!--[if lt IE 7]>
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -33,7 +33,7 @@
         <div class="row" ng-init="selectedWorldstate">
             <div class="col-lg-3">
                 <div class="dropdown clearfix">
-                    <scenario-node-list-widget style="margin: 10px;" class="custom-list" selected-worldstate="selectedWorldstate"/>
+                    <cids-node-list-widget style="margin: 10px;" class="custom-list" selected-worldstate="selectedWorldstate"/>
                 </div>
             </div>
             <div class="col-lg-9">
@@ -50,15 +50,15 @@
         <!-- endbower -->
 
         <!-- ngtemplates adds generated templates -->
-        <!-- build:js({.tmp,app}) scripts/crisma-scenario-list-widget-angular.min.js -->
+        <!-- build:js({.tmp,app}) scripts/cids-node-list-widget.min.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/ScenarioNodeListDirectiveController.js"></script>
-        <script src="scripts/directives/ScenarioNodeListDirective.js"></script>
+        <script src="scripts/controllers/NodeListDirectiveController.js"></script>
+        <script src="scripts/directives/NodeListDirective.js"></script>
         <!-- endbuild -->
 
         <!-- demo only -->
         <script>
-                    angular.module('de.cismet.crisma.widgets.scenarioNodeListWidget').config(
+                    angular.module('de.cismet.cids.widgets.nodeListWidget').config(
                         [
                             '$provide',
                             function ($provide) {

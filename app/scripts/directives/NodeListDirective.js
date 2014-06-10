@@ -1,8 +1,8 @@
 angular.module(
-    'de.cismet.crisma.widgets.scenarioNodeListWidget.directives',
+    'de.cismet.cids.widgets.nodeListWidget.directives',
     []
 ).directive(
-    'scenarioNodeListWidget',
+    'cidsNodeListWidget',
     function () {
         'use strict';
 
@@ -12,8 +12,8 @@ angular.module(
             },
             restrict: 'E',
             replace: true,
-            templateUrl: 'templates/ScenarioListWidgetTemplate.html',
-            controller: 'de.cismet.crisma.widgets.scenarioNodeListWidget.controllers.ScenarioNodeListDirectiveController'
+            templateUrl: 'templates/NodeListWidgetTemplate.html',
+            controller: 'de.cismet.cids.widgets.nodeListWidget.controllers.NodeListDirectiveController'
         };
     }
 );
